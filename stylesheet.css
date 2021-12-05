@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');body{
+    font-family: 'Anton', sans-serif;
+}
+
+
+section{
+    max-width: 40%;
+    margin:auto;
+    text-align: center;
+}
+
+.wrapper{
+    height: 70vh;
+    display:flex;
+    align-items: center;
+    color: #ffff;
+}
+
+.video-wrap{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.overlay{
+    z-index: 1;
+    height: 100%;
+    width:100%;
+    top: 0;
+    left: 0;
+    background: black;
+    position: absolute;
+    opacity: .6;
+}
+
+.landing-text{
+    z-index: 2;
+}
+
+#logo{
+   width: 750px;
+   height: 400px;
+   filter: brightness(0%) invert(90%);
+   margin:auto; 
+}
+
+.btn{
+    justify-content: center;
+    display: flex;
+    order: initial;
+    flex-direction: row;
+  
+}
+
+#left{
+    display: block;
+    margin: 30px;
+    width: 200px;
+    height: 75px;
+    line-height: 72px;
+    background: #ff4655;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 31px;
+    transition: ease-out 0.4s;
+
+}
+
+#right{
+    display: block;
+    margin: 30px;
+    width: 200px;
+    height: 75px;
+    line-height: 72px;
+    background: #ff4655;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 32px;
+    text-align: center;
+    transition: ease-out 0.4s;
+}
+
+#right:hover,#left:hover{
+    cursor: pointer;
+    color: #ff4655;
+    background: #F2F4F3;
+}
+
+ 
+
+
+
+
+
+
+
+
+
